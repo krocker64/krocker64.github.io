@@ -23,6 +23,14 @@ body {
 	box-shadow: inset 0px 0px 20px 20px rgba(36, 36, 36, 1);
 }
 
+.headerIMG:hover {
+	transition: 60s;
+	background: -20px 270px url(me2.jpg);
+	background-size: 240px;
+	border: solid 4px #ed6d6d;
+	box-shadow: inset 0px 0px 30px 30px rgba(36, 36, 36, 1);
+}
+
 h1 {
 	margin: 50px 0;
 	color: #ba9999;
@@ -42,7 +50,7 @@ span {
 }
 
 h2 {
-	margin: 200px;
+	margin: 200px 0 174px;
 	color: #ba9999;
 	font-size: 38px;
 }
@@ -53,4 +61,8 @@ h2 {
 
 .light {
 	background: #2e2e2e;
+}
+
+.egg {
+	color: #252525;
 }
