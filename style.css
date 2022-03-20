@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Neucha';
+}
+
+body {
+	background: #242424;
+}
+
+.headerIMG {
+	margin: 30px auto 0;
+	background: -60px 250px url(header.jpeg);
+	background-size: 300px;
+	width: 200px;
+	height: 200px;
+	border: solid 4px #ba9999;
+	border-radius: 100px;
+	box-shadow: inset 0px 0px 20px 20px rgba(36, 36, 36, 1);
+}
+
+h1 {
+	margin: 50px 0;
+	color: #ba9999;
+	font-size: 42px;
+}
+
+p {
+	margin: 0 auto;
+	max-width: 1000px;
+	color: #ebebeb;
+	font-size: 24px;
+}
+
+span {
+	color: #c48686;
+	font-size: 24px;
+}
+
+h2 {
+	margin: 200px;
+	color: #ba9999;
+	font-size: 38px;
+}
+
+.light, .dark {
+	padding: 50px 0;
+}
+
+.light {
+	background: #2e2e2e;
+}
